@@ -20,15 +20,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 # Inherit from olivewood device
 $(call inherit-product, device/xiaomi/olivewood/device.mk)
 
-# Inherit some PixelExperience stuff.
+# Inherit some Elixir stuff.
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := olivewood
-PRODUCT_NAME := evolution_olivewood
+PRODUCT_NAME := aosp_olivewood
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi Redmi 8A/8A Dual
 PRODUCT_MANUFACTURER := Xiaomi
