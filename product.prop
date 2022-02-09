@@ -9,5 +9,5 @@ persist.sys.io.scheduler=bfq
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
 # Official Stuff
-ro.elixir.maintainer=jaswal_ashish
+ro.elixir.maintainer=JaswalAshish
 org.elixir.device=Redmi 8A Dual
